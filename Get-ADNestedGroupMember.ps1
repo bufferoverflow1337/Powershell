@@ -3,7 +3,7 @@ function Get-ADNestedGroupMember
   [CmdletBinding()]
   param
   (
-  [Parameter(Mandatory=$true)[string]$Identity,
+  [Parameter(Mandatory=$true)][string]$Identity,
   [switch]$ShowParent,
   [switch]$ShowDepth,
   [switch]$ShowGroupScope
